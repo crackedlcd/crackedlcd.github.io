@@ -1,1 +1,16 @@
-Hello World
+---
+layout: default
+title: Welcome!
+---
+
+<div id="home">
+
+{% for post in site.posts %}
+
+  <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+  <span>{{ post.date | date_to_string }}</span>
+  <article>{{ post.excerpt }}</article>
+
+{% endfor %}
+
+</div>

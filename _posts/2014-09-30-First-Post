@@ -1,0 +1,13 @@
+---
+layout: default
+title: First Post
+---
+
+{{ page.title }}
+================
+
+<p class="meta">30 Sep 2014</p>
+
+Finally set up a Jekyll blog as my home/portfolio page. Here's to a bright and successful future.
+
+More to come!
