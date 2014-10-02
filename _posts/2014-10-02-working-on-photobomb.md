@@ -46,4 +46,4 @@ However, there's a new issue that pops up. Amazon S3 is great for hosting images
 Asset Serving
 -------------
 
-Cloudfront solves this case. Instead of serving and images and assets directly with S3, using Cloudfront means that the S3 bucket only has to serve images and assets to the edge locactions, which are meant to handle data transfers and requests. This made Photobomb load roughly **two to three times faster.** That's an impressive improvement. 
+Cloudfront solves this case. Instead of serving and images and assets directly with S3, using Cloudfront means that the S3 bucket only has to serve images and assets to the edge locactions, which are meant to handle data transfers and requests. This made Photobomb load roughly **twice as fast.** That's an impressive improvement. 
