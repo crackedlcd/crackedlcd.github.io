@@ -47,3 +47,5 @@ Asset Serving
 -------------
 
 Cloudfront to the rescue! Instead of serving and images and assets directly with S3, using Cloudfront means that the S3 bucket only has to serve images and assets to the edge locactions, which are meant to handle data transfers and requests. This made Photobomb load roughly **twice as fast.** That's quite an improvement. 
+
+To tell Rails to use the Cloudfront domain to serve assets, all you need to do is add `config.action_controller.asset_host = "[DISTRIBUTION_SUBDOMAIN].cloudfront.net"` within `config/environments/production.rb`. Also, to tell Paperclip to use the CDN instead of S3 all that needs to be done is to add `:s3_host_alias => '[DISTRIBUTION_SUBDOMAIN].cloudfront.net'`.
