@@ -4,7 +4,7 @@ title: Exercism - Hamming
 date: 19 Mar 2015
 ---
 
-**Task: Write a program that can calculate the Hamming difference between two DNA strands.**
+Task: Write a program that can calculate the Hamming difference between two DNA strands.
 
 The Hamming distance between two strands of DNA by counting the number of differences between the two. So, for example:
 {% highlight text %}
