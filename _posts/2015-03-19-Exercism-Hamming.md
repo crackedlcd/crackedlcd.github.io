@@ -67,7 +67,7 @@ class Hamming
 end
 {% endhighlight %}
 
-Since none of the test cases actually test for this, I added my own.
+Since none of the pre-made test cases test for this, I added my own.
 
 {% highlight ruby %}
 def test_exception_raised_if_different_lengths 
