@@ -5,7 +5,9 @@ date: 02 Oct 2014
 ---
 
 
-When I started Photobomb I wanted to work extensively with images. At the time images were more interesting to work with solely because user uploaded images should not exist inside the database, only the path to the image should be stored. However, the actual image needs to be stored *somewhere,*  whether it may be on the server or someplace else entirely. So when developing Photobomb I had two issues to initially solve:
+When I started Photobomb I wanted to work extensively with images. At the time images were more interesting to work with solely because user uploaded images should not exist inside the database, only the path to the image should be stored. 
+
+However, the actual image needs to be stored *somewhere,*  whether it may be on the server or someplace else entirely. So when developing Photobomb I had two issues to initially solve:
 
 1. Image uploading
 2. Image storing

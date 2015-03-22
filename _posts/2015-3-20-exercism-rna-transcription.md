@@ -20,7 +20,6 @@ The class so far looks like this:
 
 {% highlight ruby %}
 class Complement
-
     def self.of_dna(nucleotide)
     end
 
@@ -87,4 +86,4 @@ private
 end
 {% endhighlight %}
 
-*Yikes!* It passes all the test but it's a gigantic mess, especially the ``switch_nucleotide`` function. In the next part, I tackle refactoring.
+*Yikes!* It passes all the tests given by Exercism but it's a gigantic mess, especially the ``switch_nucleotide`` function. In the next part, I tackle refactoring.
