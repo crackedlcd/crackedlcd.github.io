@@ -78,4 +78,4 @@ end
 
 {% endhighlight %}
 
-And it passes. [You can see the final code at my Github page here.](https://github.com/crackedlcd/exercism-hamming)
+And it passes. 
