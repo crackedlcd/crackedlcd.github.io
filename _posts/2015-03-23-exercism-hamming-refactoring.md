@@ -35,7 +35,7 @@ For example, if I want to multiply every number in an array of numbers called ``
 arr.reduce(:*)
 {% endhighlight %}
 
-Now for the actual code. ``reduce`` is going to be called from the ``(0..base.length)`` Range object. From there a block is called that takes two arguments, ``diff`` and ``index``. In the block there's a terney operator that sees if ``base[index]`` is different from ``compare[index]`` and if there is add one to ``diff``, otherwise keep ``diff`` at the same value. I can keep it as ``base.length`` instead of ``base.length-1`` since any index outside the array is ``nil``, so only the false case would be ran. 
+Now for the actual code. ``reduce`` is going to be called from the ``(0..base.length)`` Range object. From there a block is called that takes two arguments, ``diff`` and ``index``. In the block there's a terney operator that sees if ``base[index]`` is different from ``compare[index]`` and if there is add one to ``diff``, otherwise keep ``diff`` at the same value. I can keep it as ``base.length`` instead of ``base.length-1`` since any index outside the array is ``nil``, so only the false case would be ran since ``nil != nil`` is equal to ``false``. 
 
 The code ends up looking like this:
 
